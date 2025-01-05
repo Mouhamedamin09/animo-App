@@ -6,7 +6,7 @@ import { UserProvider } from './Context/UserContext';
 
 
 export default function App() {
-  return (
+  return ( 
     <UserProvider>
       <AppNavigation />
     </UserProvider>
